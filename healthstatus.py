@@ -28,7 +28,7 @@ def send_slack_notification(webhook_url, message):
 # Main function
 def main():
     # Jenkins details
-    jenkins_url = 'http://your-jenkins-server:8080'
+    jenkins_url = 'http://localhost:8080/user/riyakochar/'
     user = 'riyakochar'
     api_token = '11051296ff53ae050783bc92e27f3029b5'
     # Slack webhook URL
